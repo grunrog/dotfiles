@@ -1,0 +1,50 @@
+windowcontrols > button {
+  min-height: 24px;
+  min-width: 24px;
+  border-radius: 9px;
+  padding: 3px;
+  /*padding-right: 6px;
+  padding-left: 6px;*/
+  margin-right: -2.5px;
+  margin-left: 1.5px;
+}
+
+/* MINIMIZE/MAXIMIZE */
+
+windowcontrols > button.minimize,
+windowcontrols > button.maximize {
+  background-color: #444444;
+}
+
+windowcontrols > button.minimize > image,
+windowcontrols > button.maximize > image {
+  background-color: transparent;
+}
+
+windowcontrols > button.minimize:hover,
+windowcontrols > button.minimize:hover:backdrop {
+  background-color: grey;
+  color: white;
+}
+
+windowcontrols > button.maximize:hover,
+windowcontrols > button.maximize:hover:backdrop {
+  background-color: grey;
+  color: white;
+}
+
+/* CLOSE */
+
+windowcontrols > button.close {
+  background-color: #B00000;
+}
+
+windowcontrols > button.close > image {
+  background-color: transparent;
+}
+
+windowcontrols > button.close:hover,
+windowcontrols > button.close:hover:backdrop {
+  background-color: red;
+  color: white;
+}
