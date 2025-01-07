@@ -1,15 +1,12 @@
+/* Titlebar Buttons */
 windowcontrols > button {
   min-height: 24px;
   min-width: 24px;
   border-radius: 9px;
   padding: 3px;
-  /*padding-right: 6px;
-  padding-left: 6px;*/
   margin-right: -2.5px;
   margin-left: 1.5px;
 }
-
-/* MINIMIZE/MAXIMIZE */
 
 windowcontrols > button.minimize,
 windowcontrols > button.maximize {
@@ -32,8 +29,6 @@ windowcontrols > button.maximize:hover:backdrop {
   background-color: grey;
   color: white;
 }
-
-/* CLOSE */
 
 windowcontrols > button.close {
   background-color: #B00000;

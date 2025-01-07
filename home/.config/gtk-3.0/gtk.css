@@ -1,15 +1,12 @@
+/* Titlebar Buttons */
 button.titlebutton {
   min-height: 24px;
   min-width: 24px;
   border-radius: 8px;
   padding: 3px;
-  /*padding-right: 6px;
-  padding-left: 6px;*/
   margin-right: -3px;
   margin-left: -1px;
 }
-
-/* MINIMIZE/MAXIMIZE */
 
 button.titlebutton.minimize,
 button.titlebutton.maximize {
@@ -34,8 +31,6 @@ button.titlebutton.maximize:backdrop:hover {
   color: #868685; /* To match GTK4 value */
 }
 
-/* CLOSE */
-
 button.titlebutton.close {
   background-color: #B00000;
 }
@@ -54,5 +49,3 @@ button.titlebutton.close:backdrop:hover {
   background-color: #921212; /* To match GTK4 value */
   color: #868685; /* To match GTK4 value */
 }
-
-
