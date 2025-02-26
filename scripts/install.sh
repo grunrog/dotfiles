@@ -2,8 +2,8 @@
 
 ./scripts/upgrade-system.sh
 
-# TODO : Enable pacman parallel downloads
 # TODO : Enable pacman multilib
+./scripts/remove-pacman-packages.sh
 ./scripts/install-packages.sh
 # TODO : Install extensions
 ./scripts/load-gnome-extensions-settings.sh
