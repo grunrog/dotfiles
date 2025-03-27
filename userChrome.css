@@ -1,0 +1,25 @@
+#TabsToolbar {
+  background-color: #1e1e1e !important;
+}
+
+.tab-background[selected]{
+  background: #36363a !important
+}
+
+toolbar {
+  background-color: #222226 !important;
+}
+
+#main-window[privatebrowsingmode="temporary"] #TabsToolbar {
+}
+
+#main-window[privatebrowsingmode="temporary"] .tab-background[selected]{
+  background: #47116c !important
+}
+ 
+#main-window[privatebrowsingmode="temporary"] toolbar {
+}
+
+#main-window[privatebrowsingmode="temporary"] #urlbar-background{
+}
+
