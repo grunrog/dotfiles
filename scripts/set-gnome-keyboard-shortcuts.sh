@@ -6,6 +6,7 @@ gsettings set org.gnome.desktop.wm.keybindings switch-applications "['<Alt>Tab']
 gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab']"
 gsettings set org.gnome.shell.keybindings show-screenshot-ui "['<Shift><Super>s']"
 gsettings set org.gnome.shell.keybindings screenshot "['Print']"
+gsettings set org.gnome.desktop.wm.keybindings unmaximize "['']"
 
 # Custom Shortcuts
 gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']"
