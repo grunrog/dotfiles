@@ -14,7 +14,7 @@ position-number=0
 show-count=true
 show-timechecked=true
 strip-versions=false
-update-cmd='kitty sh -c "sudo pacman -Syu && yay --aur && flatpak update && exit"'
+update-cmd='kitty /bin/sh -c "sudo pacman -Syu; yay --aur; flatpak update; echo Done - Press enter to exit; read _"'
 use-buildin-icons=false
 
 [arcmenu]
@@ -199,6 +199,18 @@ trans-use-dynamic-opacity=false
 tray-padding=-1
 tray-size=0
 window-preview-title-position='TOP'
+
+[ding]
+add-volumes-opposite=false
+check-x11wayland=true
+dark-text-in-labels=false
+icon-size='standard'
+show-drop-place=false
+show-home=true
+show-link-emblem=true
+show-trash=true
+show-volumes=false
+use-nemo=false
 
 [display-brightness-ddcutil]
 button-location=1
