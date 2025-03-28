@@ -1,5 +1,5 @@
 #TabsToolbar {
-  background-color: #1e1e1e !important;
+  background-color: #18181b !important;
 }
 
 .tab-background[selected]{
@@ -10,16 +10,7 @@ toolbar {
   background-color: #222226 !important;
 }
 
-#main-window[privatebrowsingmode="temporary"] #TabsToolbar {
-}
-
 #main-window[privatebrowsingmode="temporary"] .tab-background[selected]{
   background: #47116c !important
-}
- 
-#main-window[privatebrowsingmode="temporary"] toolbar {
-}
-
-#main-window[privatebrowsingmode="temporary"] #urlbar-background{
 }
 
