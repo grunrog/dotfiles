@@ -1,3 +1,4 @@
+/* Color Theme (GNOME 48) */
 #TabsToolbar {
   background-color: #18181b !important;
 }
@@ -14,3 +15,34 @@ toolbar {
   background: #47116c !important
 }
 
+/* Titlebar Buttons */
+.titlebar-button {
+  border-radius: 9px !important;
+  padding: 3px !important;
+  margin-right: 1px !important;
+  margin-left: 1px !important;
+  margin-top: 6px !important;
+  margin-bottom: 6px !important;
+}
+
+.titlebar-button>.toolbarbutton-icon {
+  background-color: transparent !important;
+}
+
+.titlebar-min, .titlebar-max {
+  background-color: #444444;
+}
+
+.titlebar-min:hover, .titlebar-max:hover {
+  background-color: grey;
+  color: white;
+}
+
+.titlebar-close {
+  background-color: #B00000;
+}
+
+.titlebar-close:hover {
+  background-color: red;
+  color: white;
+}
