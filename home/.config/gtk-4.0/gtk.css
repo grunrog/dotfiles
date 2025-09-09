@@ -6,6 +6,8 @@ windowcontrols > button {
   padding: 3px;
   margin-right: -2.5px;
   margin-left: 1.5px;
+  margin-top : 2px;
+  margin-bottom: 2px;
 }
 
 windowcontrols > button.minimize,
